@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 123 61" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-miterlimit:10;">
+    <g id="Artboard1" transform="matrix(0.492521,0,0,0.475906,-35.4627,-11.8235)">
+        <rect x="72.002" y="24.844" width="249.448" height="126.235" style="fill:none;"/>
+        <clipPath id="_clip1">
+            <rect x="72.002" y="24.844" width="249.448" height="126.235"/>
+        </clipPath>
+        <g clip-path="url(#_clip1)">
+            <g id="Layer-1" serif:id="Layer 1" transform="matrix(2.03037,0,0,2.10125,-145.769,-74.2771)">
+                <g transform="matrix(1,0,0,1,9.06475,17.1223)">
+                    <text x="97.562px" y="65.554px" style="font-family:'Aileron-Bold', 'Aileron';font-weight:700;font-size:25.566px;fill:white;">P<tspan x="116.046px 138.16px 156.158px 175.997px 195.274px 205.295px " y="65.554px 65.554px 65.554px 65.554px 65.554px 65.554px ">OLARIS</tspan></text>
+                </g>
+                <g transform="matrix(1,0,0,1,9.06475,17.1223)">
+                    <text x="113.804px" y="76.613px" style="font-family:'Aileron-Bold', 'Aileron';font-weight:700;font-size:10px;fill:white;">D<tspan x="122.114px 125.774px 133.224px 136.884px 141.494px 148.114px 151.904px 154.844px 162.004px 168.664px 172.324px 179.774px 186.554px 193.764px 200.374px " y="76.613px 76.613px 76.613px 76.613px 76.613px 76.613px 76.613px 76.613px 76.613px 76.613px 76.613px 76.613px 76.613px 76.613px 76.613px ">igital Evidence</tspan></text>
+                </g>
+                <g transform="matrix(1,0,0,1,9.06475,17.1223)">
+                    <text x="148.184px" y="87.913px" style="font-family:'Aileron-Bold', 'Aileron';font-weight:700;font-size:10px;fill:white;">R<tspan x="155.724px 165.694px " y="87.913px 87.913px ">MS</tspan></text>
+                </g>
+                <g transform="matrix(1,0,0,1,213.346,56.0496)">
+                    <path d="M0,1.236L-2.799,1.692L-1.123,3.979L-3.724,2.849L-3.552,5.68L-5.129,3.323L-6.514,5.798L-6.566,2.963L-9.069,4.295L-7.581,1.882L-10.407,1.65L-7.85,0.424L-10.102,-1.299L-7.288,-0.948L-8.251,-3.615L-6.074,-1.798L-5.442,-4.562L-4.593,-1.857L-2.567,-3.841L-3.315,-1.105L-0.538,-1.679L-2.646,0.217L0,1.236Z" style="fill:white;fill-rule:nonzero;stroke:white;stroke-width:1px;"/>
+                </g>
+            </g>
+        </g>
+    </g>
+    <g id="Layer-2" serif:id="Layer 2">
+    </g>
+</svg>
