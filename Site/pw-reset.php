@@ -3,12 +3,13 @@
   <head>
     <meta charset="utf-8" />
     <meta
-      content="width=device-width, initial-scale=1.0, shrink-to-fit=no"
       name="viewport"
+      content="width=device-width, initial-scale=1.0, shrink-to-fit=no"
     />
     <title>PolarisProject8-2023</title>
-    <link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
-    <link href="assets/css/Roboto.css" rel="stylesheet" />
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/Roboto.css" />
+    <link rel="stylesheet" href="assets/css/Login-Form-Basic-icons.css" />
   </head>
 
   <body
@@ -30,69 +31,80 @@
     >
       <div class="text-center" id="divLogo" style="padding-top: 10px">
         <img
-          height="86"
           src="assets/img/Polaris%20logo%20White.svg"
-          style="margin: 0px"
           width="268"
+          height="86"
+          style="margin: 0px"
         />
       </div>
+      <h5
+        style="
+          font-family: Roboto, sans-serif;
+          color: var(--bs-secondary-bg);
+          text-align: center;
+          margin-top: 25px;
+        "
+      >
+        Password Reset
+      </h5>
       <form
+        id="pwResetForm"
         class="needs-validation"
-        id="signinForm"
-        method="post"
-        novalidate
         style="
           padding-top: 32px;
           padding-right: 35px;
           padding-left: 35px;
-          margin-top: 40px;
+          margin-top: 15px;
         "
+        method="post"
         target="_self"
+        novalidate=""
       >
-        <div id="divUsername">
+        <div>
           <label
             class="form-label"
-            for="emailInput"
             style="
               color: var(--bs-body-bg);
               font-family: Roboto, sans-serif;
               margin-bottom: 3px;
             "
+            for="emailInput"
             >Email</label
           ><input
             class="form-control"
-            id="emailInput"
-            required
-            style="background: rgb(213, 214, 215); padding-right: 12px"
             type="email"
-        /><div id ="emailErr"
-               class = "valid-feedback">
-            Invalid input
-          </div>
+            id="emailInput"
+            style="background: rgb(213, 214, 215); padding-right: 12px"
+            required=""
+            name="emailInput"
+          />
+          <div id="emailErr" class="text-danger"></div>
         </div>
-        <div id="divPassword">
+        <div>
           <label
             class="form-label"
-            for="passwordInput"
             style="
               color: var(--bs-body-bg);
               font-family: Roboto, sans-serif;
               margin-bottom: 3px;
               margin-top: 35px;
             "
-            >Password</label
+            for="badgeInput"
+            >Badge</label
           ><input
-            id = "passwordInput"
             class="form-control"
+            type="text"
+            id="badgeInput"
             style="background: rgb(213, 214, 215)"
-            type="password"
-        />
+            name="badgeInput"
+          />
+          <div id="badgeErr" class="text-danger"></div>
         </div>
         <div style="text-align: center; margin-top: 60px">
           <input
             class="btn btn-primary"
-            style="font-family: Roboto, sans-serif"
             type="submit"
+            style="font-family: Roboto, sans-serif"
           />
         </div>
       </form>
@@ -102,7 +114,8 @@
           margin: 29px;
           margin-top: 66px;
           margin-bottom: 0px;
-        ">
+        "
+      >
         <a
           href="sign-up.php"
           style="
@@ -110,21 +123,12 @@
             font-family: Roboto, sans-serif;
             color: var(--bs-body-bg);
             margin: 0px;
-            margin-bottom: 6px;">Sign up for an account</a>
-        <a
-          href="pw-reset.php"
-          style="
-            display: block;
-            color: var(--bs-body-bg);
-            font-family: Roboto, sans-serif;
-            margin: 0px;
-            margin-top: 0px;
-            margin-bottom: 0px;
-            margin-left: 0px;
-          ">Forgot your password?</a>
+            margin-bottom: 6px;
+          "
+          >Sign up for an account</a
+        >
       </div>
     </div>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
-    <script src="js/loginval.js" defer></script>
   </body>
 </html>
